@@ -1,0 +1,64 @@
+.financialSummary {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}   
+.financialSection {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.summaryHeader h2 {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: #212529;
+}
+
+.summaryButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.summaryButtons button:hover {
+    background-color: #FD377E;
+    color: #FFFFFF;
+}
+
+.summaryButtons button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15px;
+    padding-block: 10.5px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+    .summaryHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .summaryButtons {
+        display: flex;
+        gap: 20px;
+    }
+    .summaryButtons button {
+        cursor: pointer;
+    }
+    .financialSection {
+        margin-top: 50px;
+        width: 50%;
+    }
+    .financialSummary {
+        padding-block: 38px;
+        padding-inline: 27px;
+        border-radius: 4px;
+    }
+}

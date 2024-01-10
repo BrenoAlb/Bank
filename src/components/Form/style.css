@@ -1,0 +1,81 @@
+.formContent {
+    margin-top: 39px;
+    padding-inline: 15px;
+}
+
+.formCard {
+    border: 1px solid #E9ECEF;
+    padding-block: 38px;
+    border-radius: 4px;
+    padding-inline: 27px;
+}
+
+.descriptionTitle {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: #212529;
+}
+
+.formDescription {
+    width: 100%;
+    padding-block: 13.4px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #F8F9FA;
+}
+
+.formExample {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #868E96;
+    margin-top: 4px;
+}
+
+.formSections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formSections p {
+    color: #212529;
+    font-size: 12px;
+    margin-bottom: 9px;
+}
+
+.formValues,
+.formTypes {
+    padding-block: 13.4px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #F8F9FA;
+}
+
+.formButton {
+    margin-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FD377E;
+    color: #FFFFFF;
+    padding-block: 14.5px;
+    padding-inline: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+@media (min-width: 1024px) {
+    .formContent {
+        padding-block: 38px;
+        width: 40%;
+    }
+    .formExample {
+        margin-bottom: 20px;
+    }
+    
+}

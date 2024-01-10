@@ -1,0 +1,63 @@
+.mainContent {
+    width: 100vw;
+    height: 100vh;
+    background-color: #343A40;
+    padding-inline: 20px;
+    padding-top: 50px;
+}
+
+.mainContent h1 {
+    color: #FFFFFF;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.mainContent p {
+    color: #FFFFFF;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mainContent button {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20%;
+    background-color: #FD377E;
+    color: #FFFFFF;
+    padding-block: 14.5px;
+    padding-inline: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.kenzieLogin {
+    display: block;
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.loginButton {
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    background-color: #E34981;
+}
+
+
+@media (min-width: 768px) {
+    .mainContent {
+        display: flex;
+        justify-content: center;
+        padding-top: 10%;
+    }
+    .kenzieLogin {
+        width: 90%;
+    }
+    .loginPrincipal {
+        width: 20%;
+    }
+}

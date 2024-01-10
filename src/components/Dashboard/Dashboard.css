@@ -1,0 +1,8 @@
+@media (min-width: 1024px) {
+    .mainDashboard {
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 400px;
+        gap: 15px;
+    }
+}

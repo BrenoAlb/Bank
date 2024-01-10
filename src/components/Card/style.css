@@ -1,0 +1,59 @@
+.cardContentTrue,
+.cardContentFalse {
+    width: 90%;
+    padding-inline: 10px;
+    margin: 35px auto;
+    border: 1px solid #E9ECEF;
+    padding-block: 38px;
+    border-radius: 4px;
+    padding-inline: 27px;
+}
+
+ul {
+    list-style: none;
+}
+
+.cardContentTrue {
+    border-left: 4px solid green;
+}
+.cardContentFalse {
+    border-left: 4px solid red;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardHeader img {
+    height: 100%;
+    cursor: pointer;
+}
+
+.cardHeader h2 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #212529;
+}
+
+.cardHeader p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cardType {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .cardContentTrue,
+    .cardContentFalse {
+    align-items: center;
+    width: 100%;
+    padding-inline: 15px;
+    padding-block: 20px;
+}
+}
